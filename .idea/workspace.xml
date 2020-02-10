@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb108221-8905-4056-84ee-e90a46e26502" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XCnRjToo2otuAoueYCuuARo8ph" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2847302" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.imooc.flink" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_workSpace\Flink_Learn\flink-train-JandS\src\main\resources" />
+      <recent name="D:\idea_workSpace\Flink_Learn\flink-train-JandS\src\main\java" />
+      <recent name="D:\idea_workSpace\Flink_Learn\flink-train-JandS\src\main\resources\nested\d2" />
+      <recent name="D:\idea_workSpace\Flink_Learn\flink-train-JandS\src\main\resources\nested\d" />
+      <recent name="D:\idea_workSpace\Flink_Learn\flink-train-JandS\src\main\resources\nested" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DataSetTransformationJ">
+    <configuration name="DataSetDataSourceApp (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.course04.DataSetDataSourceApp" />
+      <module name="flink-train-JandS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.flink.scala.course04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSetDataSourceApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.course04.DataSetDataSourceApp" />
+      <module name="flink-train-JandS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.flink.course04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSetTransformation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.course04.DataSetTransformation" />
+      <module name="flink-train-JandS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.flink.scala.course04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataSetTransformationJ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.Course04.DataSetTransformationJ" />
+      <module name="flink-train-JandS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.flink.Course04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaDataSetDataSourceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.Course04.JavaDataSetDataSourceApp" />
+      <module name="flink-train-JandS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.flink.Course04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DataSetTransformationJ" />
+        <item itemvalue="Application.DataSetTransformation" />
+        <item itemvalue="Application.DataSetDataSourceApp (1)" />
+        <item itemvalue="Application.DataSetDataSourceApp" />
+        <item itemvalue="Application.JavaDataSetDataSourceApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb108221-8905-4056-84ee-e90a46e26502" name="Default Changelist" comment="" />
+      <created>1580558937872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580558937872</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="535" y="213" width="1026" height="677" key="#Project_Structure" timestamp="1580559456932">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="535" y="213" width="1026" height="677" key="#Project_Structure/65.27.1855.1053@65.27.1855.1053" timestamp="1580559456932" />
+    <state x="530" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580874489507">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580874489507" />
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1581327206187">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581327206187" />
+    <state x="815" y="444" width="344" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580559557003">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="815" y="444" width="344" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1580559557003" />
+    <state x="575" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580873316826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="575" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1580873316826" />
+    <state x="691" y="412" width="603" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580559619451">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="691" y="412" width="603" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/65.27.1855.1053@65.27.1855.1053" timestamp="1580559619451" />
+    <state x="553" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1580873319147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="553" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1580873319147" />
+    <state x="643" y="221" key="FileChooserDialogImpl" timestamp="1580640321390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="643" y="221" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580640321390" />
+    <state x="842" y="310" key="FileChooserDialogImpl/65.27.1855.1053@65.27.1855.1053" timestamp="1580558963609" />
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom" timestamp="1581328366323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/65.27.1855.1053@65.27.1855.1053" timestamp="1580563204125" />
+    <state width="1493" height="231" key="GridCell.Tab.0.center" timestamp="1581328366323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center/65.27.1855.1053@65.27.1855.1053" timestamp="1580563204123" />
+    <state width="1493" height="231" key="GridCell.Tab.0.left" timestamp="1581328366323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left/65.27.1855.1053@65.27.1855.1053" timestamp="1580563204121" />
+    <state width="1493" height="231" key="GridCell.Tab.0.right" timestamp="1581328366323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/65.27.1855.1053@65.27.1855.1053" timestamp="1580563204124" />
+    <state x="265" y="0" width="1006" height="707" key="SettingsEditor" timestamp="1581340760606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="265" y="0" width="1006" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581340760606" />
+    <state x="511" y="187" width="1214" height="730" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1580559376949" />
+    <state x="440" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1581340744227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="440" y="276" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581340744227" />
+    <state x="596" y="380" key="com.intellij.ide.util.TipDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1580564810424" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581327653117">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581327653117" />
+  </component>
+</project>
