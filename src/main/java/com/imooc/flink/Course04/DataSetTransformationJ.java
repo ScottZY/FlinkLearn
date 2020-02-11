@@ -2,6 +2,7 @@ package com.imooc.flink.Course04;
 
 import com.imooc.flink.scala.course04.DBUtils;
 import org.apache.flink.api.common.functions.FilterFunction;
+import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.common.functions.MapFunction;
 import org.apache.flink.api.common.functions.MapPartitionFunction;
 import org.apache.flink.api.common.operators.Order;
@@ -22,16 +23,54 @@ public class DataSetTransformationJ {
 //        mapFunction(env);
 //        filterFunction(env);
 //        mapPartitionFunction(env);
-        firstFunction(env);
+//        firstFunction(env);
+        flatMMapFunction(env);
     }
 
 
     /**
-     * flatMap函数
+     * flatMap函数 词频统计
      * @param env
      */
-    public static void flatMMapFunction(ExecutionEnvironment env){
+    public static void flatMMapFunction(ExecutionEnvironment env) throws Exception {
+        List<String> list = new ArrayList<String>();
+        list.add("hadoop, flink");
+        list.add("hadoop, Spark");
+        list.add("Linux, Spark");
 
+        DataSource<String> data = env.fromCollection(list);
+        data.flatMap(new FlatMapFunction<String, String>() {
+            @Override
+            public void flatMap(String s, Collector<String> collector) throws Exception {
+                String[] split = s.split(", ");
+                for (String s1 : split) {
+                    collector.collect(s1);
+                }
+            }
+        }).map(new MapFunction<String, Tuple2<String, Integer>>() {
+            @Override
+            public Tuple2<String, Integer> map(String s) throws Exception {
+                return new Tuple2<>(s, 1);
+            }
+        }).groupBy(0).sum(1).print();
+
+
+//   另一种写法
+//        ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+//        List<String> list = new ArrayList<String>();
+//        list.add("hadoop, flink");
+//        list.add("hadoop, Spark");
+//        list.add("Linux, Spark");
+//        DataSource<String> source = env.fromCollection(list);
+//        source.flatMap(new FlatMapFunction<String, Tuple2<String, Integer>>() {
+//            @Override
+//            public void flatMap(String s, Collector<Tuple2<String, Integer>> collector) throws Exception {
+//                String[] split = s.split(", ");
+//                for (String s1 : split) {
+//                    collector.collect(new Tuple2<>(s1, 1));
+//                }
+//            }
+//        }).groupBy(0).sum(1).print();
     }
 
 
