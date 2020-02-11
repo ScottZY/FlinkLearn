@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb108221-8905-4056-84ee-e90a46e26502" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course02/BatchWCJavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course02/BatchWCJavaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/KeyFieldExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/KeyFieldExpressions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/KeySelectorFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/KeySelectorFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/SpecifyingTransformationFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/SpecifyingTransformationFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course04/DataSetTransformationJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course04/DataSetTransformationJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course04/JavaDataSetDataSourceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course04/JavaDataSetDataSourceApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/BatchScalaApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/BatchScalaApp.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course03/KeyFieldExpressions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course03/KeyFieldExpressions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course03/KeySelectorFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course03/KeySelectorFunctions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course04/DataSetTransformation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course04/DataSetTransformation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course02/BatchWCJavaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course02/BatchWCJavaApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course03/KeyFieldExpressions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course03/KeyFieldExpressions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course03/SpecifyingTransformationFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course03/SpecifyingTransformationFunctions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/DataSetTransformationJ$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/DataSetTransformationJ$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/DataSetTransformationJ$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/DataSetTransformationJ$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/DataSetTransformationJ$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/DataSetTransformationJ$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/DataSetTransformationJ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/DataSetTransformationJ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/JavaDataSetDataSourceApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/Course04/JavaDataSetDataSourceApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/java/course02/BatchScalaApp$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/java/course02/BatchScalaApp$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course03/KeyFieldExpressions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course03/KeyFieldExpressions$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course03/KeySelectorFunctions$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course03/KeySelectorFunctions$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course04/DataSetTransformation$$anonfun$filterFunction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course04/DataSetTransformation$$anonfun$filterFunction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course04/DataSetTransformation$$anonfun$mapFunction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course04/DataSetTransformation$$anonfun$mapFunction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course04/DataSetTransformation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course04/DataSetTransformation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course04/DataSetTransformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/flink/scala/course04/DataSetTransformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/flinkjava/Course03/KeySelectorFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/flinkjava/Course03/KeySelectorFunctions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +80,7 @@
       <recent name="D:\idea_workSpace\Flink_Learn\flink-train-JandS\src\main\resources\nested" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataSetTransformation">
+  <component name="RunManager" selected="Application.DataSetTransformationJ">
     <configuration name="DataSetDataSourceApp (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.course04.DataSetDataSourceApp" />
       <module name="flink-train-JandS" />
@@ -125,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaDataSetDataSourceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.Course04.JavaDataSetDataSourceApp" />
+    <configuration name="wordcount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.flink.Course04.wordcount" />
       <module name="flink-train-JandS" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataSetTransformation" />
         <item itemvalue="Application.DataSetTransformationJ" />
+        <item itemvalue="Application.DataSetTransformation" />
+        <item itemvalue="Application.wordcount" />
         <item itemvalue="Application.DataSetDataSourceApp (1)" />
         <item itemvalue="Application.DataSetDataSourceApp" />
-        <item itemvalue="Application.JavaDataSetDataSourceApp" />
       </list>
     </recent_temporary>
   </component>
@@ -199,12 +207,27 @@
       <option name="project" value="LOCAL" />
       <updated>1581421986353</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20200211第n次提交">
+      <created>1581424930316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581424930316</updated>
+    </task>
+    <task id="LOCAL-00006" summary="20200211第n次提交">
+      <created>1581425738841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581425738841</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="linux 提交测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="linux 提交测试" />
+    <MESSAGE value="20200211第n次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="20200211第n次提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="535" y="213" width="1026" height="677" key="#Project_Structure" timestamp="1581424635656">
@@ -215,10 +238,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="530" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580874489507" />
-    <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser" timestamp="1581327206187">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="758" y="162" width="378" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1581432153191">
+      <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state x="574" y="106" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581327206187" />
+    <state x="758" y="162" width="378" height="577" key="#com.intellij.ide.util.MemberChooser/65.27.1855.1053@65.27.1855.1053" timestamp="1581432153191" />
     <state x="815" y="444" width="344" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580559557003">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
@@ -235,52 +259,53 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="553" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1580873319147" />
-    <state x="483" y="146" width="1008" height="813" key="CommitChangelistDialog2" timestamp="1581421986235">
+    <state x="483" y="146" width="1008" height="813" key="CommitChangelistDialog2" timestamp="1581432326669">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
-    <state x="483" y="146" width="1008" height="813" key="CommitChangelistDialog2/65.27.1855.1053@65.27.1855.1053" timestamp="1581421986235" />
+    <state x="483" y="146" width="1008" height="813" key="CommitChangelistDialog2/65.27.1855.1053@65.27.1855.1053" timestamp="1581432326669" />
     <state x="643" y="221" key="FileChooserDialogImpl" timestamp="1580640321390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="221" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580640321390" />
     <state x="842" y="310" key="FileChooserDialogImpl/65.27.1855.1053@65.27.1855.1053" timestamp="1580558963609" />
-    <state width="1807" height="353" key="GridCell.Tab.0.bottom" timestamp="1581424807435">
+    <state width="1807" height="352" key="GridCell.Tab.0.bottom" timestamp="1581432303492">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
-    <state width="1807" height="353" key="GridCell.Tab.0.bottom/65.27.1855.1053@65.27.1855.1053" timestamp="1581424807435" />
-    <state width="1807" height="353" key="GridCell.Tab.0.center" timestamp="1581424807435">
+    <state width="1807" height="352" key="GridCell.Tab.0.bottom/65.27.1855.1053@65.27.1855.1053" timestamp="1581432303491" />
+    <state width="1807" height="352" key="GridCell.Tab.0.center" timestamp="1581432303487">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
-    <state width="1807" height="353" key="GridCell.Tab.0.center/65.27.1855.1053@65.27.1855.1053" timestamp="1581424807435" />
-    <state width="1807" height="353" key="GridCell.Tab.0.left" timestamp="1581424807434">
+    <state width="1807" height="352" key="GridCell.Tab.0.center/65.27.1855.1053@65.27.1855.1053" timestamp="1581432303487" />
+    <state width="1807" height="352" key="GridCell.Tab.0.left" timestamp="1581432303485">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
-    <state width="1807" height="353" key="GridCell.Tab.0.left/65.27.1855.1053@65.27.1855.1053" timestamp="1581424807434" />
-    <state width="1807" height="353" key="GridCell.Tab.0.right" timestamp="1581424807435">
+    <state width="1807" height="352" key="GridCell.Tab.0.left/65.27.1855.1053@65.27.1855.1053" timestamp="1581432303485" />
+    <state width="1807" height="352" key="GridCell.Tab.0.right" timestamp="1581432303490">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
-    <state width="1807" height="353" key="GridCell.Tab.0.right/65.27.1855.1053@65.27.1855.1053" timestamp="1581424807435" />
-    <state x="511" y="187" width="1006" height="707" key="SettingsEditor" timestamp="1581424436074">
+    <state width="1807" height="352" key="GridCell.Tab.0.right/65.27.1855.1053@65.27.1855.1053" timestamp="1581432303490" />
+    <state x="511" y="187" width="1006" height="707" key="SettingsEditor" timestamp="1581426785858">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state x="265" y="0" width="1006" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581340760606" />
-    <state x="511" y="187" width="1214" height="730" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1581424436074" />
-    <state x="587" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581424821737">
+    <state x="511" y="187" width="1214" height="730" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1581426785858" />
+    <state x="587" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581425745170">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
-    <state x="587" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/65.27.1855.1053@65.27.1855.1053" timestamp="1581424821737" />
+    <state x="587" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/65.27.1855.1053@65.27.1855.1053" timestamp="1581425745170" />
     <state x="440" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1581340744227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="440" y="276" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581340744227" />
     <state x="596" y="380" key="com.intellij.ide.util.TipDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1580564810424" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581327653117">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="586" y="212" width="812" height="867" key="search.everywhere.popup" timestamp="1581431684744">
+      <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581327653117" />
+    <state x="586" y="212" width="812" height="867" key="search.everywhere.popup/65.27.1855.1053@65.27.1855.1053" timestamp="1581431684744" />
   </component>
 </project>

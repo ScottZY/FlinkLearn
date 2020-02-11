@@ -1,21 +1,24 @@
 package com.imooc.flink.Course04;
 
 import com.imooc.flink.scala.course04.DBUtils;
-import org.apache.flink.api.common.functions.FilterFunction;
-import org.apache.flink.api.common.functions.FlatMapFunction;
-import org.apache.flink.api.common.functions.MapFunction;
-import org.apache.flink.api.common.functions.MapPartitionFunction;
+import org.apache.commons.math3.random.AbstractRandomGenerator;
+import org.apache.flink.api.common.functions.*;
 import org.apache.flink.api.common.operators.Order;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.DataSource;
+import org.apache.flink.api.java.tuple.Tuple13;
 import org.apache.flink.api.java.tuple.Tuple2;
+import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.util.Collector;
+
+import java.sql.Struct;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * dataSet Transformation
  */
+
 public class DataSetTransformationJ {
     public static void main(String[] args) throws Exception {
 //        构建执行环境
@@ -24,9 +27,68 @@ public class DataSetTransformationJ {
 //        filterFunction(env);
 //        mapPartitionFunction(env);
 //        firstFunction(env);
-        flatMMapFunction(env);
+//        flatMMapFunction(env);
+//        distinctFunction(env);
+        joinFunction(env);
     }
 
+    /**
+     * join 函数
+     * @param env
+     */
+    public static void joinFunction(ExecutionEnvironment env) throws Exception {
+        List<Tuple2<Integer, String>> info1 = new ArrayList<Tuple2<Integer, String>>();
+        info1.add(new Tuple2<Integer, String>(1, "Montreal"));
+        info1.add(new Tuple2<Integer, String>(2, "Toronto"));
+        info1.add(new Tuple2<Integer, String>(3, "Shanghai"));
+        info1.add(new Tuple2<Integer, String>(4, "York"));
+        info1.add(new Tuple2<Integer, String>(6, "Beijing"));
+
+        List<Tuple2<Integer, String>> info2 = new ArrayList<>();
+        info2.add(new Tuple2<Integer, String>(1, "James"));
+        info2.add(new Tuple2<Integer, String>(2, "Will"));
+        info2.add(new Tuple2<Integer, String>(3, "Reymond"));
+        info2.add(new Tuple2<Integer, String>(4, "Jack"));
+        info2.add(new Tuple2<Integer, String>(5, "XiaoMing"));
+
+        DataSource<Tuple2<Integer, String>> source1 = env.fromCollection(info1);
+        DataSource<Tuple2<Integer, String>> source2 = env.fromCollection(info2);
+//        join操作
+//        left data, right data, output data
+        source1.join(source2).where(0).equalTo(0).with(new JoinFunction<Tuple2<Integer, String>, Tuple2<Integer, String>, Tuple3<Integer, String, String>>() {
+            @Override
+            public Tuple3<Integer, String, String> join(Tuple2<Integer, String> left, Tuple2<Integer, String> right) throws Exception {
+                return new Tuple3<>(left.f0, right.f1, left.f1);
+            }
+        }).print();
+
+//        (3,Reymond,Shanghai)
+//        (1,James,Montreal)
+//        (2,Will,Toronto)
+//        (4,Jack,York)
+    }
+
+    /**
+     * distinct 函数
+     * @param env
+     * @throws Exception
+     */
+    public static void distinctFunction(ExecutionEnvironment env) throws Exception {
+        List<String> list = new ArrayList<String>();
+        list.add("hadoop,flink");
+        list.add("hadoop,Spark");
+        list.add("Linux,Spark");
+        DataSource<String> source = env.fromCollection(list);
+        source.flatMap(new FlatMapFunction<String, String>() {
+            @Override
+            public void flatMap(String s, Collector<String> collector) throws Exception {
+                String[] strings = s.split(",");
+                for (String string : strings) {
+                    collector.collect(string);
+                }
+            }
+        }).distinct().print();
+    }
 
     /**
      * flatMap函数 词频统计

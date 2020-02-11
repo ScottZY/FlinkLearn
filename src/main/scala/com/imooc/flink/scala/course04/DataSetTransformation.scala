@@ -16,8 +16,135 @@ object DataSetTransformation {
 //    filterFunction(env)
 //    mapPartitionFunction(env)
 //    firstFunction(env)
-    flatMapFunction(env)
+//    flatMapFunction(env)
+//    distinctFunction(env)
+//    joinFunction(env)
+    outJoinFunction(env)
   }
+
+
+  /**
+   * 外连接
+   * @param env
+   */
+  def outJoinFunction(env: ExecutionEnvironment): Unit ={
+    val info1 = new ListBuffer[(Int, String)]()
+    info1.append((1, "Montreal"))
+    info1.append((2, "Toronto"))
+    info1.append((3, "Shanghai"))
+    info1.append((4, "York"))
+    info1.append((6, "Beijing"))
+
+    val info2 = new ListBuffer[(Int, String)]()
+    info2.append((1, "James"))
+    info2.append((2, "Will"))
+    info2.append((3, "Reymond"))
+    info2.append((4, "Jack"))
+    info2.append((5, "XiaoMing"))
+
+    val data1 = env.fromCollection(info1)
+    val data2 = env.fromCollection(info2)
+
+//    左外连接  以左边数据位基准 如果右边的数据中没有与之对应的 那么左边对应的数据就为空 但是左边的数据时全部显示的
+    data1.leftOuterJoin(data2).where(0).equalTo(0).apply((left, right) => {
+      if (right == null){
+        (left._1, "无", left._2)
+      }else{
+        (left._1, right._2, left._2)
+      }
+    }).print()
+//    (3,Reymond,Shanghai)
+//    (1,James,Montreal)
+//    (6,无,Beijing)
+//    (2,Will,Toronto)
+//    (4,Jack,York)
+
+    //    右外连接  以右边数据位基准 如果左边的数据中没有与之对应的 那么右边对应的数据就为空 但是右边的数据时全部显示的
+    data1.rightOuterJoin(data2).where(0).equalTo(0).apply((left, right) => {
+      if (left == null){
+        (right._1, right._2, "无")
+      }else{
+        (left._1, right._2, left._2)
+      }
+    }).print()
+//    (3,Reymond,Shanghai)
+//    (1,James,Montreal)
+//    (5,XiaoMing,无)
+//    (2,Will,Toronto)
+//    (4,Jack,York)
+
+//    全连接
+    data1.fullOuterJoin(data2).where(0).equalTo(0).apply((left, right) => {
+      if (left == null){
+        (right._1, right._2, "无")
+      }else if(right == null){
+        (left._1, "无", left._2)
+      } else{
+        (left._1, right._2, left._2)
+      }
+    }).print()
+//    (3,Reymond,Shanghai)
+//    (1,James,Montreal)
+//    (5,XiaoMing,无)
+//    (6,无,Beijing)
+//    (2,Will,Toronto)
+//    (4,Jack,York)
+
+
+  }
+
+
+  /**
+   * join function  内连接
+   * @param env
+   */
+  def joinFunction(env: ExecutionEnvironment): Unit ={
+    val info1 = new ListBuffer[(Int, String)]()
+    info1.append((1, "Montreal"))
+    info1.append((2, "Toronto"))
+    info1.append((3, "Shanghai"))
+    info1.append((4, "York"))
+    info1.append((6, "Beijing"))
+
+    val info2 = new ListBuffer[(Int, String)]()
+    info2.append((1, "James"))
+    info2.append((2, "Will"))
+    info2.append((3, "Reymond"))
+    info2.append((4, "Jack"))
+    info2.append((5, "XiaoMing"))
+
+    val data1 = env.fromCollection(info1)
+    val data2 = env.fromCollection(info2)
+
+//    执行join操作 data1和data2相join  条件是 data1(左边的) 中的第0元素个 和 data2(右边的) 中的第0元素个相等
+//    apply：创建一个新的[[DataSet]]，其中每对连接的元素的结果都是给定函数的结果。
+    data1.join(data2).where(0).equalTo(0).apply((left, right) => {
+      (left._1, right._2, left._2)
+    }).print()
+
+//    (3,Reymond,Shanghai)
+//    (1,James,Montreal)
+//    (2,Will,Toronto)
+//    (4,Jack,York)
+
+
+  }
+
+
+
+  /**
+   * distinct function
+    * @param env
+   */
+  def distinctFunction(env: ExecutionEnvironment): Unit ={
+    val list = new ListBuffer[String]()
+    list.append("hadoop,hadoop")
+    list.append("hadoop,spark")
+    list.append("hadoop,flink")
+    val data = env.fromCollection(list)
+    data.flatMap(_.split(",")).distinct().print()
+  }
+
 
 
   /**
