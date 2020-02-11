@@ -1,5 +1,6 @@
 package com.imooc.flink.scala.course04
 
+import org.apache.flink.api.common.operators.Order
 import org.apache.flink.api.scala.ExecutionEnvironment
 import org.apache.flink.api.scala._
 
@@ -13,7 +14,51 @@ object DataSetTransformation {
     val env = ExecutionEnvironment.getExecutionEnvironment
 //    mapFunction(env)
 //    filterFunction(env)
-    mapPartitionFunction(env)
+//    mapPartitionFunction(env)
+//    firstFunction(env)
+    flatMapFunction(env)
+  }
+
+
+  /**
+   * FlatMap function：将一个元素变为多个
+   * @param env
+   */
+  def flatMapFunction(env: ExecutionEnvironment): Unit ={
+    val info = new ListBuffer[String]()
+    info.append("hadoop,spark")
+    info.append("hadoop,flink")
+    info.append("flink,flink")
+    val data = env.fromCollection(info)
+//    data.map(_.split(",")).print()  // [Ljava.lang.String;@4b6ac111 使用map和split后无法直接打印内容 打印出来的是一个个对象
+    data.flatMap(_.split(",")).print() // hadoop ...
+//    词频统计
+    data.flatMap(_.split(",")).map((_, 1)).groupBy(0).sum(1).print()
+  }
+  /**
+   * first 函数
+   * @param env
+   */
+  def firstFunction(env: ExecutionEnvironment): Unit ={
+    val info = new ListBuffer[(Int, String)]()
+    info.append((1, "hadoop"))
+    info.append((1, "Spark"))
+    info.append((1, "Flink"))
+    info.append((2, "Java"))
+    info.append((2, "Ruby"))
+    info.append((3, "Linux"))
+    info.append((3, "Unix"))
+    val data = env.fromCollection(info)
+//    按顺序取出前三条
+//    data.first(3).print()
+//    取出分组后的每个组内的前两条数据
+//    data.groupBy(0).first(2).print()
+//    分组后根据第二个元素排序(升序)，然后取出前两条
+    println("升序排列：")
+    data.groupBy(0).sortGroup(1, Order.ASCENDING).first(2).print()
+    println("降序排列：")
+    data.groupBy(0).sortGroup(1, Order.DESCENDING).first(2).print()
+
   }
 
 
