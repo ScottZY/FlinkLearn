@@ -1,17 +1,14 @@
 package com.imooc.flink.Course04;
 
 import com.imooc.flink.scala.course04.DBUtils;
-import org.apache.commons.math3.random.AbstractRandomGenerator;
 import org.apache.flink.api.common.functions.*;
 import org.apache.flink.api.common.operators.Order;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.operators.DataSource;
-import org.apache.flink.api.java.tuple.Tuple13;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.util.Collector;
 
-import java.sql.Struct;
 import java.util.ArrayList;
 import java.util.List;
 
