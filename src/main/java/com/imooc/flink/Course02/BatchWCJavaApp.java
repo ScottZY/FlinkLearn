@@ -14,7 +14,7 @@ public class BatchWCJavaApp {
     public static void main(String[] args){
 //        step1：获取运行环境
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
-        String input = "file:\\D:\\idea_workSpace\\Flink_Learn\\flink-train-JandS\\src\\main\\resources\\hello.txt";
+        String input = "/home/yongzhang/IdeaProjects/MeLearnFlink/FlinkLearn/src/main/resources/hello.txt";
 
 //        step2：read data
         DataSource<String> text = env.readTextFile(input);

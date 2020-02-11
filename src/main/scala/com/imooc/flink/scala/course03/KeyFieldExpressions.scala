@@ -9,7 +9,7 @@ object KeyFieldExpressions {
   def main(args: Array[String]): Unit = {
     //    创建执行环境
     val env = StreamExecutionEnvironment.getExecutionEnvironment
-    val text = env.socketTextStream("192.168.50.205", 9999)
+    val text = env.socketTextStream("localhost", 9999)
     //    隐式转换
     import org.apache.flink.api.scala._
     //    transform

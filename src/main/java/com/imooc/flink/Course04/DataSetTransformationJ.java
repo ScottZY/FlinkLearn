@@ -27,6 +27,16 @@ public class DataSetTransformationJ {
 
 
     /**
+     * flatMap函数
+     * @param env
+     */
+    public static void flatMMapFunction(ExecutionEnvironment env){
+
+    }
+
+
+
+    /**
      * first函数
      * @param env
      * @throws Exception

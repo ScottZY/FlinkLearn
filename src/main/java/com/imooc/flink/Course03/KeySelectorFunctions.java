@@ -15,7 +15,7 @@ public class KeySelectorFunctions {
 //        step1:创建执行环境
         final StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
 //        step2：读取数据
-        DataStreamSource<String> text = env.socketTextStream("192.168.50.205", 9999);
+        DataStreamSource<String> text = env.socketTextStream("localhost", 9999);
 //        step3：transform
         text.flatMap(new FlatMapFunction<String, WC>() {
             @Override

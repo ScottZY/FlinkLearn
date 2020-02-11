@@ -21,9 +21,9 @@ public class JavaDataSetDataSourceApp {
      */
     public static void textFile(ExecutionEnvironment env) throws Exception {
 //        文件路径
-        String filepath = "D:\\idea_workSpace\\Flink_Learn\\flink-train-JandS\\src\\main\\resources\\hello.txt";
+        String filepath = "/home/yongzhang/IdeaProjects/MeLearnFlink/FlinkLearn/src/main/resources/hello.txt";
 //        文件夹路径
-        String dirPath = "D:\\idea_workSpace\\Flink_Learn\\flink-train-JandS\\src\\main\\resources\\inputs";
+        String dirPath = "/home/yongzhang/IdeaProjects/MeLearnFlink/FlinkLearn/src/main/resources/inputs";
         env.readTextFile(dirPath).print();
     }
 

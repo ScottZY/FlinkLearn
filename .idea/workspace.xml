@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb108221-8905-4056-84ee-e90a46e26502" name="Default Changelist" comment="" />
+    <list default="true" id="cb108221-8905-4056-84ee-e90a46e26502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course02/BatchWCJavaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course02/BatchWCJavaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/KeyFieldExpressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/KeyFieldExpressions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/KeySelectorFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/KeySelectorFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/SpecifyingTransformationFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course03/SpecifyingTransformationFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course04/DataSetTransformationJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course04/DataSetTransformationJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course04/JavaDataSetDataSourceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/flink/Course04/JavaDataSetDataSourceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/BatchScalaApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course02/BatchScalaApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course03/KeyFieldExpressions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course03/KeyFieldExpressions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course03/KeySelectorFunctions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/imooc/flink/scala/course03/KeySelectorFunctions.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -38,11 +53,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2847302" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -56,7 +72,7 @@
       <recent name="D:\idea_workSpace\Flink_Learn\flink-train-JandS\src\main\resources\nested" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataSetTransformationJ">
+  <component name="RunManager" selected="Application.DataSetTransformation">
     <configuration name="DataSetDataSourceApp (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.flink.scala.course04.DataSetDataSourceApp" />
       <module name="flink-train-JandS" />
@@ -124,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataSetTransformationJ" />
         <item itemvalue="Application.DataSetTransformation" />
+        <item itemvalue="Application.DataSetTransformationJ" />
         <item itemvalue="Application.DataSetDataSourceApp (1)" />
         <item itemvalue="Application.DataSetDataSourceApp" />
         <item itemvalue="Application.JavaDataSetDataSourceApp" />
@@ -155,13 +171,46 @@
       <option name="presentableId" value="Default" />
       <updated>1580558937872</updated>
     </task>
+    <task id="LOCAL-00001" summary="linux 提交测试">
+      <created>1581420963349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581420963349</updated>
+    </task>
+    <task id="LOCAL-00002" summary="linux 提交测试">
+      <created>1581421046297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581421046297</updated>
+    </task>
+    <task id="LOCAL-00003" summary="linux 提交测试">
+      <created>1581421571995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581421571995</updated>
+    </task>
+    <task id="LOCAL-00004" summary="linux 提交测试">
+      <created>1581421986353</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581421986353</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="linux 提交测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="linux 提交测试" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="535" y="213" width="1026" height="677" key="#Project_Structure" timestamp="1580559456932">
+    <state x="535" y="213" width="1026" height="677" key="#Project_Structure" timestamp="1581424635656">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
-    <state x="535" y="213" width="1026" height="677" key="#Project_Structure/65.27.1855.1053@65.27.1855.1053" timestamp="1580559456932" />
+    <state x="535" y="213" width="1026" height="677" key="#Project_Structure/65.27.1855.1053@65.27.1855.1053" timestamp="1581424635656" />
     <state x="530" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580874489507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -186,36 +235,44 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="553" y="301" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1580873319147" />
+    <state x="483" y="146" width="1008" height="813" key="CommitChangelistDialog2" timestamp="1581421986235">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="483" y="146" width="1008" height="813" key="CommitChangelistDialog2/65.27.1855.1053@65.27.1855.1053" timestamp="1581421986235" />
     <state x="643" y="221" key="FileChooserDialogImpl" timestamp="1580640321390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="643" y="221" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580640321390" />
     <state x="842" y="310" key="FileChooserDialogImpl/65.27.1855.1053@65.27.1855.1053" timestamp="1580558963609" />
-    <state width="1493" height="231" key="GridCell.Tab.0.bottom" timestamp="1581328366323">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1807" height="353" key="GridCell.Tab.0.bottom" timestamp="1581424807435">
+      <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="1493" height="231" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
-    <state width="1807" height="278" key="GridCell.Tab.0.bottom/65.27.1855.1053@65.27.1855.1053" timestamp="1580563204125" />
-    <state width="1493" height="231" key="GridCell.Tab.0.center" timestamp="1581328366323">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1807" height="353" key="GridCell.Tab.0.bottom/65.27.1855.1053@65.27.1855.1053" timestamp="1581424807435" />
+    <state width="1807" height="353" key="GridCell.Tab.0.center" timestamp="1581424807435">
+      <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="1493" height="231" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
-    <state width="1807" height="278" key="GridCell.Tab.0.center/65.27.1855.1053@65.27.1855.1053" timestamp="1580563204123" />
-    <state width="1493" height="231" key="GridCell.Tab.0.left" timestamp="1581328366323">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1807" height="353" key="GridCell.Tab.0.center/65.27.1855.1053@65.27.1855.1053" timestamp="1581424807435" />
+    <state width="1807" height="353" key="GridCell.Tab.0.left" timestamp="1581424807434">
+      <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="1493" height="231" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
-    <state width="1807" height="278" key="GridCell.Tab.0.left/65.27.1855.1053@65.27.1855.1053" timestamp="1580563204121" />
-    <state width="1493" height="231" key="GridCell.Tab.0.right" timestamp="1581328366323">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1807" height="353" key="GridCell.Tab.0.left/65.27.1855.1053@65.27.1855.1053" timestamp="1581424807434" />
+    <state width="1807" height="353" key="GridCell.Tab.0.right" timestamp="1581424807435">
+      <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state width="1493" height="231" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581328366323" />
-    <state width="1807" height="278" key="GridCell.Tab.0.right/65.27.1855.1053@65.27.1855.1053" timestamp="1580563204124" />
-    <state x="265" y="0" width="1006" height="707" key="SettingsEditor" timestamp="1581340760606">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1807" height="353" key="GridCell.Tab.0.right/65.27.1855.1053@65.27.1855.1053" timestamp="1581424807435" />
+    <state x="511" y="187" width="1006" height="707" key="SettingsEditor" timestamp="1581424436074">
+      <screen x="65" y="27" width="1855" height="1053" />
     </state>
     <state x="265" y="0" width="1006" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581340760606" />
-    <state x="511" y="187" width="1214" height="730" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1580559376949" />
+    <state x="511" y="187" width="1214" height="730" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1581424436074" />
+    <state x="587" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581424821737">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="587" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/65.27.1855.1053@65.27.1855.1053" timestamp="1581424821737" />
     <state x="440" y="276" key="com.intellij.ide.util.TipDialog" timestamp="1581340744227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -8,7 +8,7 @@ import org.apache.flink.api.scala.ExecutionEnvironment
 object BatchScalaApp {
   def main(args: Array[String]): Unit = {
     val env = ExecutionEnvironment.getExecutionEnvironment
-    val input = "file:\\D:\\idea_workSpace\\Flink_Learn\\flink-train-JandS\\src\\main\\resources\\hello.txt"
+    val input = "/home/yongzhang/IdeaProjects/MeLearnFlink/FlinkLearn/src/main/resources/hello.txt"
     val text = env.readTextFile(input)
     text.print()
 //    引入Scala隐式转换 --- 否则代码后边会有 (...) 报错
