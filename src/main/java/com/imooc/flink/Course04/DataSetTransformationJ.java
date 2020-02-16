@@ -11,7 +11,6 @@ import org.apache.flink.util.Collector;
 
 import java.util.ArrayList;
 import java.util.List;
-
 /**
  * dataSet Transformation
  */
